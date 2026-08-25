@@ -1,8 +1,8 @@
-# VeriMask v1 (Flutter Face Detection & Privacy)
+# VeriMask 1 (Flutter Face Detection & Privacy)
 
-A clean, lightweight Flutter template for building **face detection and privacy-focused camera applications** on mobile (Android & iOS).
+A clean, lightweight Flutter app for building **face detection and privacy-focused camera applications** on mobile (Android & iOS).
 
-> 💡 **About this Project**: A starter template providing a ready-to-run foundation for developers to integrate real-time face tracking, camera overlays, and on-device image anonymization.
+> 💡 **About this Project**: An app providing a ready-to-run foundation for developers to integrate real-time face tracking, camera overlays, and on-device image anonymization.
 
 ---
 
