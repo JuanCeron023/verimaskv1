@@ -1,0 +1,118 @@
+{
+  "@@locale": "es",
+
+  "appTitle": "VeriMask",
+
+  "enrollmentTitleSimple": "Configurar verificación",
+  "enrollmentSubtitleSimple": "Solo toma un momento. Tu información no sale de este dispositivo.",
+  "enrollmentStep1Simple": "Mira a la cámara",
+  "enrollmentStep2Simple": "Quédate quieto",
+  "enrollmentStep3Simple": "Gira un poco la cabeza",
+  "enrollmentStep4Simple": "Casi listo...",
+  "enrollmentStep5Simple": "Guardando tu perfil...",
+  "enrollmentStartButton": "Iniciar verificación",
+  "enrollmentPrivacyText": "Tu información nunca sale de tu teléfono",
+  "enrollmentFailed": "No pudimos crear tu perfil. Intenta de nuevo.",
+
+  "reEnrollmentRequired": "Necesitamos verificar tu identidad antes de continuar.",
+  "reEnrollmentBlocked": "Podrás intentarlo de nuevo en {days} días.",
+  "@reEnrollmentBlocked": {
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "reEnrollmentContactSupport": "Si necesitas ayuda, contacta a soporte.",
+
+  "cameraTitle": "Capturar foto",
+  "cameraPermissionRequired": "Necesitamos acceso a tu cámara para continuar.",
+  "cameraPermissionSettings": "Abrir configuración",
+  "cameraPermissionDenied": "Se denegó el permiso de cámara. Por favor, otorga el permiso para usar la cámara.",
+  "cameraPermissionPermanentlyDenied": "El permiso de cámara fue denegado permanentemente. Por favor, habilítalo en la configuración para continuar.",
+  "cameraPermissionRestricted": "El acceso a la cámara está restringido en este dispositivo. Esto puede deberse a controles parentales o políticas del dispositivo.",
+  "cameraNotAvailable": "La cámara no está disponible en este momento.",
+
+  "handNotDetected": "Muestra tu mano en la cámara.",
+  "handGuideSimple": "Pon tu mano en esta área",
+
+  "livenessPrompt": "Gira un poco la cabeza a la derecha",
+
+  "validationFailed": "No pudimos verificar tu identidad. Intenta de nuevo.",
+
+  "processingPhoto": "Procesando tu foto...",
+  "processingError": "Algo salió mal al procesar la foto. Intenta de nuevo.",
+  "captureError": "No pudimos tomar la foto. Intenta de nuevo.",
+  "genericError": "Algo salió mal. Intenta de nuevo.",
+
+  "resultTitle": "Tu foto verificada",
+  "resultAuthentic": "Foto verificada",
+  "resultAuthenticDesc": "Generada por VeriMask, sin alteraciones, hace menos de 2 horas.",
+  "resultAuthenticTip": "Tip: Acuerda encontrarte en un lugar público y pide que se presente en un punto visible.",
+  "resultTampered": "Foto no válida",
+  "resultTamperedDesc": "Esta foto no pasó la verificación de integridad. Podría haber sido alterada.",
+  "resultExpired": "Foto expirada",
+  "resultExpiredDesc": "Esta foto tiene más de 2 horas. Solicita una foto reciente.",
+  "resultSharePrompt": "Comparte tu foto verificada",
+
+  "shareWhatsApp": "Compartir en WhatsApp",
+  "shareTelegram": "Compartir en Telegram",
+  "shareGeneric": "Compartir",
+
+  "verifyQrTitle": "Verificar foto",
+  "verifyQrInstructions": "Haz captura de pantalla de la foto VeriMask que te compartieron y selecciónala aquí.",
+  "verifyQrNoCode": "No se encontró un código QR válido.",
+  "verifyQrReadError": "No pudimos leer el código QR. Intenta con otra imagen.",
+  "verifyPhotoButton": "Verificar foto",
+
+  "planFreeLabel": "Plan Gratuito",
+  "planPremiumLabel": "Plan Premium",
+  "planLimitReached": "Has usado tus 18 fotos gratuitas este mes. ¡Obtén Premium para fotos ilimitadas!",
+  "planPhotosRemaining": "{count} fotos restantes este mes",
+  "@planPhotosRemaining": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "planUpgradeButton": "Obtener Premium",
+  "planUnlimited": "Fotos ilimitadas",
+
+  "ttlExpiresSoon": "Esta foto se eliminará automáticamente en {minutes} minutos.",
+  "@ttlExpiresSoon": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "ttlExpired": "Esta foto ha expirado y fue eliminada.",
+
+  "onboardingWelcome": "Bienvenido a VeriMask",
+  "onboardingDescription": "Demuestra que eres tú sin mostrar tu rostro completo.",
+  "onboardingStep1Title": "Configura tu perfil",
+  "onboardingStep1Body": "Toma algunas fotos para que la app te reconozca.",
+  "onboardingStep2Title": "Captura tu foto verificada",
+  "onboardingStep2Body": "Muestra tu mano y mira a la cámara. La app protege tu rostro automáticamente.",
+  "onboardingStep3Title": "Comparte con confianza",
+  "onboardingStep3Body": "Envía tu foto verificada directamente por WhatsApp o Telegram.",
+  "onboardingGetStarted": "Comenzar",
+  "onboardingSkip": "Omitir",
+  "onboardingNext": "Siguiente",
+
+  "secureStorageError": "No pudimos guardar tu perfil de forma segura. Reinicia la app.",
+  "keyPairError": "No pudimos preparar la seguridad de tus fotos. Reinicia la app.",
+  "segmentationFallback": "No pudimos procesar el fondo de la foto. Se usará un fondo simple.",
+
+  "settingsTitle": "Configuración",
+  "aboutTitle": "Acerca de VeriMask",
+  "privacyNote": "Toda la información se procesa en tu dispositivo. Nada sale de tu teléfono.",
+
+  "buttonRetry": "Intentar de nuevo",
+  "buttonCancel": "Cancelar",
+  "buttonContinue": "Continuar",
+  "buttonDone": "Listo",
+
+  "progressDetectingHand": "Detectando mano...",
+  "progressVerifyingIdentity": "Mueve ligeramente la cabeza a la derecha...",
+  "progressProcessingPhoto": "Procesando foto...",
+  "progressCertifying": "Certificando...",
+  "captureButtonSimple": "Tomar foto anónima VeriMask",
+  "takeAnotherPhoto": "Tomar otra foto",
+  "privacyBadge": "100% en tu dispositivo"
+}
